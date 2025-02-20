@@ -24,7 +24,7 @@ namespace Examen
         {
             return N1 + N2 + N3;
         }
-        public string MensajeNotaFina(double notaFinal) {
+        public string MensajeNotaFinal(double notaFinal){
             if (notaFinal < 60) {
                 return "Reprobado";
             }
@@ -57,5 +57,6 @@ namespace Examen
 
 
         }
+      
     }
 }
